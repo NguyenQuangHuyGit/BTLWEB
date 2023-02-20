@@ -1,0 +1,26 @@
+.blog-btn{
+    text-decoration: none;
+    color: #000000;
+}
+@keyframes transferXL{
+    from{
+        margin-left: 7px;
+    }
+    to{
+        margin-left: 11px;
+    }
+}
+.fa-arrow-right-long{
+    margin-left: 7px;
+}
+.blog-btn:hover .fa-arrow-right-long{
+    animation: transferXL linear 0.2s;
+    margin-left: 11px;
+}
+.blog-post{
+    font-size: 16px;
+}
+a:hover{
+    color: #ff5421;
+    transition: 0.3s;
+}

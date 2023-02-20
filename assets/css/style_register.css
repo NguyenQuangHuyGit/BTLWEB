@@ -1,0 +1,15 @@
+.register-form{
+    background-color: #f9f8f8;
+}
+@media screen and (max-width: 768px) {
+    .fs-2{
+        font-size: 20px !important;
+    }
+}
+.btn-register{
+    border: 2px solid #ff5421;
+}
+.btn-register:hover{
+    background-color: #ffffff;
+    color: #ff5421 !important;
+}

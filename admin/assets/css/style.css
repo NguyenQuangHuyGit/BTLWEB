@@ -1,0 +1,39 @@
+body{
+    height: 1000px;
+}
+.col-md-2{
+    background-color: #3e5367;
+}
+#dropdownMenuButton1{
+    background-color: #3e5367;
+    box-shadow: none;
+    color: #000;
+}
+#dropdownMenuButton1:hover{
+    color: #fff;
+}
+.dropdown-menu{
+    transition: linear 0.3s;
+    background-color: #3e5367;
+    border: none;
+}
+ a:hover{
+    background-color: #3e5367 !important;
+    transform: scale(1,1.5);
+    color: #fff;
+    transition: linear 0.5s;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#form-admin{
+    display: none;
+}
+#create{
+    display: none;
+}
+.state{
+    width: 20%;
+}
+

@@ -1,0 +1,42 @@
+.btn-pages {
+  background-color: #ff5421 !important;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+.btn-pages:hover{
+  background-color: #e64615 !important;
+  color: #fff !important;
+  transition: 0.3s;
+}
+.card-pages {
+  transition: 0.3s linear;
+}
+.card-pages:hover {
+  transform: translateY(-10px);
+  animation: linear 1s;
+}
+@keyframes smallfont {
+  from {
+    font-size: 27px;
+  }
+  to {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fs-0 {
+    animation: smallfont 1s linear;
+    font-size: 18px;
+  }
+  .w-18rem {
+    width: auto;
+  }
+  .w-20rem {
+    width: auto;
+  }
+  .h-11rem {
+    height: 11rem;
+  }
+}

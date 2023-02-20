@@ -1,0 +1,304 @@
+html,
+body {
+  font-size: 15px;
+  color: #505050;
+  font-family: "Rubik", sans-serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.main-contents {
+  margin-top: 100px;
+}
+
+.breadcrum {
+  position: relative;
+}
+
+.breadcrum .breadcrum-img img {
+  width: 100%;
+}
+
+.breadcrum .breadcrum-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.breadcrum .breadcrum-text .page-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.breadcrum .breadcrum-text .breadcrum-text-title {
+  justify-content: center;
+}
+
+.breadcrum .breadcrum-text .breadcrum-text-title a {
+  position: relative;
+  padding-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.breadcrum .breadcrum-text .breadcrum-text-title span {
+  color: #fff;
+  font-size: 20px;
+}
+
+.breadcrum .breadcrum-text .breadcrum-text-title p {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+/* About one */
+.about-one .sec-title .sec-title-sub {
+  color: #ff5421;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.about-one .sec-title .sec-title-h2 {
+  margin-bottom: 17px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about-one .sec-title .sec-title-text {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.about-three {
+  position: relative;
+  margin-top: 80px;
+}
+
+.about-three .about-img img {
+  width: 100%;
+}
+
+.about-three .about-img .videp-wrap {
+  position: absolute;
+  margin-top: -220px;
+}
+
+.about-three .videp-wrap .popup-video {
+  color: #ffffff;
+  display: block;
+  overflow: hidden;
+  max-width: 270px;
+  text-decoration: none;
+  position: absolute;
+}
+
+.about-three .videp-wrap .popup-video i {
+  width: 70px;
+  height: 70px;
+  line-height: 61px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  margin-right: 20px;
+}
+
+.about-three .videp-wrap .popup-video h4 {
+  font-size: 25px;
+}
+
+.about-three .sec-title .sec-title-content .sec-title-content-h2 {
+  margin-bottom: 17px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about-three .btn-part .readon2 {
+  border: none;
+  padding: 12px 40px;
+  border-radius: 3px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  background: #ff5421;
+  text-decoration: none;
+}
+
+.about-four {
+  position: relative;
+  margin-top: 80px;
+}
+
+.about-four .couter-item .couter-item-bg img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.about-four .couter-item .couter-item-text {
+  left: 0;
+  transform: translateY(-230%);
+  width: 100%;
+  text-align: center;
+}
+
+.about-four .couter-item .couter-item-text .couter-item-text-h2 {
+  position: relative;
+  display: inline-block;
+  font-size: 42px;
+  line-height: 1;
+  color: #112958;
+  padding-right: 25px;
+  margin-bottom: 15px;
+}
+
+.about-four .couter-item .couter-item-text .couter-item-text-h4 {
+  font-size: 22px;
+  color: #505050;
+}
+
+.about-five {
+  margin-top: 70px;
+  margin-bottom: -330px;
+}
+
+.about-five .img-part {
+  position: relative;
+}
+
+.about-five .img-part img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-five .history-part {
+  top: 50%;
+  transform: translateY(-108%);
+  border: none;
+  float: right;
+}
+
+.about-five .history-part .single-history {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.about-five .history-part .single-history a {
+  padding: 28px 20px 22px;
+  box-shadow: 0px 0px 18px 0px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  height: 120px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background: #ff5421;
+}
+
+.about-five .sec-title .sec-title-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.about-five .sec-title .sec-title-img img {
+  max-width: 100%;
+  padding-top: 30px;
+}
+
+.about-six {
+  background: #f3f8f9;
+  margin-bottom: 90px;
+}
+
+.about-six .sec-title .sub-title {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #ff5421;
+}
+
+.about-six .sec-title .tittle {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.about-seven .donation-part img {
+  border-radius: 5px;
+  margin-bottom: 22px;
+  width: 100%;
+}
+
+.about-seven .donation-part h3 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-seven .donation-part .btn-part .readon2 {
+  padding: 12px 40px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  background: #ff5421;
+  text-decoration: none;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.about-seven .testi-wrap {
+  overflow: hidden;
+  background: #f3f8f9;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.about-seven .testi-wrap .img-part {
+  max-width: 209px;
+  float: left;
+  margin-right: 58px;
+}
+
+.about-seven .testi-wrap .img-part img {
+  border-radius: 5px;
+}
+
+.about-seven .testi-wrap .content-part .desc {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #111111;
+  display: inline;
+  position: relative;
+}

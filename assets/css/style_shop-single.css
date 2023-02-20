@@ -1,0 +1,41 @@
+a:hover{
+    color: #ff5421 !important;
+    transition: 0.3s;
+}
+#NumberBk{
+    width: 60px;
+    padding: 6px;
+}
+#ADD{
+    border-radius: 5px;
+}
+#ADD:hover{
+    background-color: #f0400b;
+    transition: 0.3s;
+}
+.btn-tab{
+    color: #000000 !important;
+    font-weight: 600;
+}
+.btn-tab.active{
+    background-color: #ff5421 !important;
+    color: #ffffff !important;
+}
+#shop-btn:hover{
+    background-color: #f0400b;
+    transition: 0.3s;
+}
+.fa-cart-plus{
+    right: 6px;
+    bottom: 150px;
+    transition: 0.4s;
+    opacity: 0;
+}
+.card-shop:hover .shop-item .fa-cart-plus{
+    opacity: 1;
+    visibility: visible !important;
+    bottom: 0px;
+}
+   
+
+  

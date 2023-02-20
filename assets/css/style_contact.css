@@ -1,0 +1,12 @@
+body{
+    background-color: #f9f8f8;
+}
+a:hover{
+    color: #ff5421;
+}
+#Mess{
+    height: 25vh;
+}
+@media screen and (max-width: 768px) {
+    
+}
